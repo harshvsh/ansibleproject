@@ -10,5 +10,6 @@
   - wordpress_pvc
   - wordpress_deployment
   - wordpress_svc
+  - wordpress_hpa
   notify:
   - Wait for Wordpress service to roll out
